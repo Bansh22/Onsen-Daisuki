@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8310347185526124136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2515872817566685635}
+  - component: {fileID: 2801008294296278121}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2515872817566685635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8310347185526124136}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2801008294296278121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8310347185526124136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af768cdb8919e164189c9b69d7428b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnContainer: []
+  slimes:
+  - {fileID: 1653368255280036106, guid: f21e458e59be2224baed849d9ee8dcb3, type: 3}
+  - {fileID: 2086034786153120317, guid: 87500cf12362a1f4392ba13aefc9a9da, type: 3}
+  - {fileID: 2070964092473062834, guid: 747c4a97ffdbf204baa447a599b57f11, type: 3}
+  - {fileID: 494691135407617383, guid: 7254024bad5b8c54b8c9b20d85668058, type: 3}
+  - {fileID: 494691135407617383, guid: 7254024bad5b8c54b8c9b20d85668058, type: 3}
+  - {fileID: 494691135407617383, guid: 7254024bad5b8c54b8c9b20d85668058, type: 3}
+  target: {fileID: 0}
+  Endui: {fileID: 0}
+  spwanpointclone: {fileID: 0}
+  configLineCount: 0
+  foundObjects: []
+  waveNumber: 0
+  oncreate: 0
